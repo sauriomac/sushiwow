@@ -26,27 +26,13 @@
             <h5 class="card-text text-warning font-weight-bold">
               {{ item.precio | currency }}
             </h5>
-            <!-- <button
-                  class="btn btn-sm bg-danger"
-                  @click="(cantidad) => item.cantidad--"
-                  v-show="item.cantidad >= 2"
-                >
-                  -
-                </button> -->
-            <!-- <span v-show="item.cantidad >= 2"> {{ item.cantidad }} </span> -->
             <button
               class="btn bg-white text-red font-weight-bold"
               @click="addtocart(item)"
             >
               В КОРЗИНУ +
             </button>
-            <!-- <button
-                  class="btn btn-sm bg-danger"
-                  @click="(cantidad) => item.cantidad++"
-                  v-show="item.cantidad >= 2"
-                >
-                  +
-                </button> -->
+            
           </div>
         </div>
       </div>

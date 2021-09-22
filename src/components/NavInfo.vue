@@ -14,7 +14,6 @@
           ><span class="material-icons"> place </span>магазину</a
         >
       </li>
-
       <li class="nav-item">
         <span class="material-icons mr-2"> phone </span
         ><a class="phone" href="#">0930000000</a>

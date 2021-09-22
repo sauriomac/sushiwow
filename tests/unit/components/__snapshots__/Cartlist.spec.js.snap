@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cartlist would make match with snapshot 1`] = `
+<transition-stub name="fade">
+  <div id="principal" class="principal mt-5">
+    <div class="titulo">
+      <h1 class="text-warning"></h1>
+    </div>
+    <div class="contenedor"></div>
+  </div>
+</transition-stub>
+`;
